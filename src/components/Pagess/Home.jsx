@@ -6,6 +6,7 @@ import Explore from '../Explore'
 import GamingExperience from '../GamingExperience'
 import Budget from '../Budget'
 import BudgetCard from '../BudgetCard'
+import GameCollection from '../GameCollection'
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
     <Explore/>
     <GamingExperience/>
     <Budget/>
-    
+    <GameCollection/>
     </>
   )
 }
