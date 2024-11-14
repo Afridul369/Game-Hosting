@@ -30,7 +30,7 @@ const Explore = () => {
         </div>
         <div className="text-white">
             <Flex className={'gap-x-4'}>
-                <Button text={'Purchase Now'} className={'text-base font-Inter px-9 py-4 rounded-3xl hover:text-Bannerbtntxt hover:bg-ButtonBg hover:border-transparent hover:font-bold text-white bg-NavBg border-2 border-white duration-300 cursor-pointer'}/>                
+                <Button text={'Purchase Now'} className={'text-base font-Inter px-9 py-4 rounded-[32px] hover:text-Bannerbtntxt hover:bg-ButtonBg hover:border-transparent hover:font-bold text-white bg-NavBg border-2 border-white duration-300 cursor-pointer'}/>                
             </Flex>
         </div>
     </div>

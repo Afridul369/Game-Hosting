@@ -22,7 +22,7 @@ const Banner = () => {
             </Flex>
         </div>
         <div className="relative mb-10">
-            <Text text={'Power Up with Our Premium Game Hosting Solutions '} className={'text-[64px] text-white font-bold font-Plus'}/> 
+            <Text text={'Power Up with Our Premium Game Hosting Solutions '} className={'text-[64px] text-white font-bold font-Plus leading-[80px]'}/> 
             <Image imgSrc={Gamebanner} imgAlt={'Gamebanner'} className={'absolute left-[304px] bottom-0'}/>
         </div>
         <div className="text-white">

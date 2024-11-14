@@ -12,7 +12,7 @@ import ExperienceContent from './ExperienceContent'
 const GamingExperience = () => {
   return (
     <>
-    <div className="py-28 bg-Explorebg">
+    <div className="py-14 bg-Explorebg">
         <Container>
             <Flex>
                 <div className="w-1/2   ">

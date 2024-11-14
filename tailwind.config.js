@@ -23,6 +23,7 @@ export default {
         Explorebg: '#0b0f21',
         Servertxt: '#D4DCFF',
         BorderBottom: '#121833',
+        Check: '#00b67a',
       },
     },
   },
