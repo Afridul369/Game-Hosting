@@ -9,6 +9,7 @@ import BudgetCard from '../BudgetCard'
 import GameCollection from '../GameCollection'
 import CustomerLove from '../CustomerLove'
 import Question from '../Question'
+import Footer from '../Footer'
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
     <GameCollection/>
     <CustomerLove/>
     <Question/>
+    <Footer/>
     </>
   )
 }
