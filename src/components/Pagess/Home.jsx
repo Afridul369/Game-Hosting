@@ -7,6 +7,7 @@ import GamingExperience from '../GamingExperience'
 import Budget from '../Budget'
 import BudgetCard from '../BudgetCard'
 import GameCollection from '../GameCollection'
+import CustomerLove from '../CustomerLove'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
     <GamingExperience/>
     <Budget/>
     <GameCollection/>
+    <CustomerLove/>
     </>
   )
 }

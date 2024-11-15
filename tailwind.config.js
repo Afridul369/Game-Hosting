@@ -25,6 +25,7 @@ export default {
         BorderBottom: '#121833',
         Check: '#00b67a',
         colltxt: '#2D3C58',
+        LoveCard: '#141b38',
       },
     },
   },
