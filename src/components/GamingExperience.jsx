@@ -15,7 +15,7 @@ const GamingExperience = () => {
     <div className="py-14 bg-Explorebg">
         <Container>
             <Flex>
-                <div className="w-1/2   ">
+                <div className="w-1/2">
                     <div style={{background:'#ffd8bf'}} className='w-[90%] rounded-xl'>
                         <Image imgSrc={Experienceimg} imgAlt={'Experienceimg'} /></div>
                 </div>

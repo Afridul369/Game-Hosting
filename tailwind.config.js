@@ -26,6 +26,8 @@ export default {
         Check: '#00b67a',
         colltxt: '#2D3C58',
         LoveCard: '#141b38',
+        Gradient: '#070916',
+      
       },
     },
   },

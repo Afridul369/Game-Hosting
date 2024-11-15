@@ -11,10 +11,10 @@ import Button from './Button'
 const Explore = () => {
   return (
     <>
-    <div className="bg-Explorebg">
+    <div className="bg-Explorebg ">
     <Container>
-    <div className="relative">
-    <Image imgSrc={ExploreBg} />
+    <div className="relative ">
+    <Image imgSrc={ExploreBg} className={''}/>
     <div className="w-2/5 absolute top-[70px] left-[80px]">
     <div className="text-white border w-[38%] px-5 py-2 rounded-3xl mb-6">
             <Flex className={'items-center gap-x-2'}>

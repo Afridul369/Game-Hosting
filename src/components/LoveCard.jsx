@@ -8,7 +8,7 @@ import Image from './Image'
 const LoveCard = ({text1,text2,text3,imgSrc}) => {
   return (
     <>
-    <div className="p-10 bg-LoveCard rounded-lg ">
+    <div className="p-10 bg-LoveCard rounded-lg  bg-gradient-to-tl from-Gradient">
         <Star />
         <Text text={text1} className={'mt-6 text-white text-xl font-Inter font-semibold '}/>
         <Flex className={'mt-6 gap-x-4'}>
