@@ -24,6 +24,7 @@ export default {
         Servertxt: '#D4DCFF',
         BorderBottom: '#121833',
         Check: '#00b67a',
+        colltxt: '#2D3C58',
       },
     },
   },

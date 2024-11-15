@@ -34,11 +34,15 @@ const GameCollection = () => {
             </Flex>
         </div>
         <div className="">
-            <Flex className={'justify-between'}>
-            <CollectionCard imgSrc={Cardimg1}/>
-            <CollectionCard imgSrc={Cardimg2}/>
-            <CollectionCard imgSrc={Cardimg3}/>
-            <CollectionCard imgSrc={Cardimg4}/>
+            <Flex className={'gap-x-8 flex-wrap'}>
+            <CollectionCard imgSrc={Cardimg1} text1={'Legacy of the Stars'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg2} text1={'Nebula Nexus'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg3} text1={'Shadowrealm Saga'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg4} text1={'Warzone Assault'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg5} text1={'Eternal Odyssey'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg6} text1={'Magic and Mystery'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg7} text1={'Reign of Fire'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg8} text1={'Guardians of the Cosmos'} text2={'$29.00'}/>
             </Flex>
         </div>
     </div>
