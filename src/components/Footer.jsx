@@ -19,11 +19,12 @@ const Footer = () => {
     <>
     <div className="bg-Explorebg ">
         <Container>
-        <Flex className={'mb-32'}>
-            <div className="pr-11">
-                <Image imgSrc={Footerlogo} className={'mb-10'}/>
-                <Text text={'We’re on a mission make life easier for web developers & small businesses.'} className={'text-base font-Inter text-Servertxt mb-14'}/>
-                <Text text={'Payment Method'} className={'text-xl font-Inter text-white font-bold mb-3'}/>
+        <Flex className={'mb-32 justify-between'}>
+            <div className="">
+                <Image imgSrc={Footerlogo} className={'mb-12'}/>
+                <Text text={'We’re on a mission make life easier for '} className={'text-base font-Inter text-Servertxt '}/>
+                <Text text={'web developers & small businesses. '} className={'text-base font-Inter text-Servertxt mb-14'}/>
+                <Text text={'Payment Method'} className={'text-xl font-Inter text-white font-bold mb-4'}/>
                 <Flex className={'gap-x-2'}>
                   <Image imgSrc={Visa} className={'rounded'}/>
                   <Image imgSrc={Mastercard} className={'rounded'}/>
@@ -32,7 +33,7 @@ const Footer = () => {
                   <Image imgSrc={Wise} className={'rounded'}/>
                 </Flex>
             </div>
-            <div className="pr-11">
+            <div className="pl-[76px] pr-[90px]">
               <Text text='Company' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
               <List>
                 <ListItems item={'About Us'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
@@ -43,7 +44,7 @@ const Footer = () => {
                 <ListItems item={'Knowledgebase'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
               </List>
             </div>
-            <div className="px-11">
+            <div className="pr-10">
               <Text text='Feature' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
               <List>
                 <ListItems item={'Domain Checker'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
@@ -54,7 +55,7 @@ const Footer = () => {
                 <ListItems item={'Support'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
               </List>
             </div>
-            <div className="pr-11">
+            <div className="pr-[75px]">
               <Text text='Hosting' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
               <List>
                 <ListItems item={'Shared Hosting'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
