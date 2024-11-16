@@ -21,7 +21,7 @@ const GameCollection = () => {
    <Container>
    <div >
         <div className="text-center text-white mb-[70px]">
-            <Text text={'Our Game Collection'} className={'text-5xl font-Plus font-bold'}/>
+            <Text text={'Our Game Collection'} className={'animate__animated animate__backInDown text-5xl font-Plus font-bold'}/>
         </div>
         <div className="mb-12">
             <Flex className={'justify-center gap-x-3'}>
