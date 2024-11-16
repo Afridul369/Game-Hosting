@@ -10,7 +10,7 @@ console.log(NavLogo);
 const Navbar = () => {
   return (
     <>
-    <div className="bg-NavBg py-6 justify-between items-center">
+    <div className="bg-NavBg  py-6 justify-between items-center z-50" id='StikyNav'>
         <Container>
             <Flex>
                 <div className="py-2">
@@ -18,7 +18,7 @@ const Navbar = () => {
                 </div>
                 <div className="px-44 text-white py-2">
                   <Flex className={'gap-x-10  '}>
-                      <div className="flex items-center gap-x-2"><Menu menuname={'Home' } className={'text-base font-semibold font-Inter'}/><FaAngleDown /></div>
+                      <div className="flex items-center gap-x-2"><Menu menuname={'Home' } className={'text-base font-semibold font-Inter'} /><FaAngleDown /></div>
                       <div className="flex items-center gap-x-2"><Menu menuname={'Pages' } className={'text-base font-semibold font-Inter'}/><FaAngleDown /></div>
                       <div className="flex items-center gap-x-2"><Menu menuname={'Hosting'} className={'text-base font-semibold font-Inter'} /><FaAngleDown /></div>
                       <div className="flex items-center gap-x-2"><Menu menuname={'Domain' } className={'text-base font-semibold font-Inter'}/><FaAngleDown /></div>

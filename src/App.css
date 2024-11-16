@@ -1,0 +1,12 @@
+.stickycss{
+    background-color: white;
+    animation: abir 1s;
+}
+@keyframes abir {
+    from{
+        top: -200px;
+    }
+    to{
+        top: 0;
+    }
+}
