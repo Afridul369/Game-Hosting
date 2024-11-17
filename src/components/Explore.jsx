@@ -12,21 +12,21 @@ const Explore = () => {
   return (
     <>
     <div className="bg-Explorebg ">
-    <Container>
-    <div className="relative ">
+    <Container className={''}>
+    <div className="relative bg-gradient-to-r from-white z-50">
     <Image imgSrc={ExploreBg} className={''}/>
-    <div className="w-2/5 absolute top-[70px] left-[80px]">
+    <div className="w-2/5 absolute top-[70px] left-[80px] z-10">
     <div className="text-white border w-[38%] px-5 py-2 rounded-3xl mb-6">
             <Flex className={'items-center gap-x-2'}>
             <IoGameControllerOutline className='text-3xl'/>
-            <Text text={'Purchase Game'} className={'text-base font-Inter font-semibold'}/>
+            <Text text={'Purchase Game'} as='h1' className={'text-base font-Inter font-semibold'}/>
             </Flex>
         </div>
         <div className="relative mb-10">
-            <Text text={'Explore New Worlds: Create Your Own Saga'} className={'text-5xl text-white font-bold font-Plus'}/> 
+            <Text text={'Explore New Worlds: Create Your Own Saga'} as='h1' className={'text-5xl text-white font-bold font-Plus'}/> 
         </div>
         <div className="relative mb-10">
-            <Text text={'Welcome to a world where adventure awaits at every turn. Immerse yourself in epic battles, thrilling challenges, and boundless excitement as you embark on a journey like no other.'} className={'text- text-white font-bold font-Plus'}/> 
+            <Text text={'Welcome to a world where adventure awaits at every turn. Immerse yourself in epic battles, thrilling challenges, and boundless excitement as you embark on a journey like no other.'} as='h1' className={'text- text-white font-bold font-Plus'}/> 
         </div>
         <div className="text-white">
             <Flex className={'gap-x-4'}>

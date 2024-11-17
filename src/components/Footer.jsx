@@ -22,9 +22,9 @@ const Footer = () => {
         <Flex className={'mb-32 justify-between'}>
             <div className="">
                 <Image imgSrc={Footerlogo} className={'mb-12'}/>
-                <Text text={'We’re on a mission make life easier for '} className={'text-base font-Inter text-Servertxt '}/>
-                <Text text={'web developers & small businesses. '} className={'text-base font-Inter text-Servertxt mb-14'}/>
-                <Text text={'Payment Method'} className={'text-xl font-Inter text-white font-bold mb-4'}/>
+                <Text text={'We’re on a mission make life easier for '} as='h1' className={'text-base font-Inter text-Servertxt '}/>
+                <Text text={'web developers & small businesses. '} as='h1' className={'text-base font-Inter text-Servertxt mb-14'}/>
+                <Text text={'Payment Method'} as='h1' className={'text-xl font-Inter text-white font-bold mb-4'}/>
                 <Flex className={'gap-x-2'}>
                   <Image imgSrc={Visa} className={'rounded'}/>
                   <Image imgSrc={Mastercard} className={'rounded'}/>
@@ -34,7 +34,7 @@ const Footer = () => {
                 </Flex>
             </div>
             <div className="pl-[76px] pr-[90px]">
-              <Text text='Company' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
+              <Text text='Company' as='h1' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
               <List>
                 <ListItems item={'About Us'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
                 <ListItems item={'News Feed'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
@@ -45,7 +45,7 @@ const Footer = () => {
               </List>
             </div>
             <div className="pr-10">
-              <Text text='Feature' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
+              <Text text='Feature' as='h1' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
               <List>
                 <ListItems item={'Domain Checker'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
                 <ListItems item={'Domain Transfer'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
@@ -56,7 +56,7 @@ const Footer = () => {
               </List>
             </div>
             <div className="pr-[75px]">
-              <Text text='Hosting' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
+              <Text text='Hosting' as='h1' className={'mb-10 text-xl font-Inter text-white font-bold'}/>
               <List>
                 <ListItems item={'Shared Hosting'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
                 <ListItems item={'Wordpress Hosting'} className={'mb-6 font-Inter text-base text-Servertxt hover:text-ButtonBg duration-500'}/>
@@ -67,10 +67,10 @@ const Footer = () => {
               </List>
             </div>
             <div className="">
-              <Text text={'Join Our Newsletter'} className={'text-xl font-Inter text-white font-bold mb-10'}/>
-              <Text text={"We'll send you news and offers."} className={'text-base font-Inter text-white font-semibold mb-10'}/>
+              <Text text={'Join Our Newsletter'} as='h1' className={'text-xl font-Inter text-white font-bold mb-10'}/>
+              <Text text={"We'll send you news and offers."} as='h1' className={'text-base font-Inter text-white font-semibold mb-10'}/>
               <input type='text' placeholder=' Enter Mail' className='w-[320px] mb-10 py-4 px-3 bg-white rounded-3xl'/>
-              <Text text={'Social Media'} className={'text-xl font-Inter text-white font-bold mb-7'}/>
+              <Text text={'Social Media'} as='h1' className={'text-xl font-Inter text-white font-bold mb-7'}/>
               <Flex className={'gap-x-3'}>
                 <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white">
                 <FaFacebookF />
@@ -92,7 +92,7 @@ const Footer = () => {
 
         </Flex>
         <div className="text-white text-center">
-          <Text text={'© Copyright 2024. All Rights Reserved.'} className={'text-base font-Plus text-Servertxt pb-10'}/>
+          <Text text={'© Copyright 2024. All Rights Reserved.'} as='h1' className={'text-base font-Plus text-Servertxt pb-10'}/>
         </div>
         </Container>
     </div>

@@ -8,9 +8,11 @@ const ExperienceContent = ({imgSrc,text}) => {
   return (
     <>
     <div >
-    <Flex className={'gap-x-16 mb-10'}>
+    <Flex className={'gap-x-16 mb-10 border-b  '}>
+        <div className="w-[60px] mt-2">
         <Image imgSrc={imgSrc}/>
-        <Text text={text} className={'text-white text-2xl font-Plus font-semibold leading-8 pr-28'}/>
+        </div>
+        <Text text={text} as='h1' className={'text-white text-2xl font-Plus font-semibold leading-8 pr-28 mb-6'}/>
     </Flex>
     </div>
     </>

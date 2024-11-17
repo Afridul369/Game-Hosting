@@ -10,7 +10,7 @@ console.log(NavLogo);
 const Navbar = () => {
   return (
     <>
-    <div className="bg-NavBg  py-6 justify-between items-center z-50" id='StikyNav'>
+    <div className="bg-NavBg  py-6 justify-between items-center " id='StikyNav'>
         <Container>
             <Flex>
                 <div className="py-2">

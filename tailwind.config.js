@@ -29,6 +29,11 @@ export default {
         Gradient: '#070916',
       
       },
+      backgroundImage: {
+         Banner: "url('./src/assets/banner.webp')",
+         GamerServerBg: "url('./src/assets/gameserverbg.png')",
+         FooterBg: "url('./src/assets/foooterbg.png')",
+      },
     },
   },
   plugins: [],

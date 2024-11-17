@@ -9,3 +9,11 @@
          $('#StikyNav').removeClass('stickycss');
     }
     });  
+
+    let yearly = document.getElementById('yearly')
+    let offer = document.getElementById('offer')
+    let save = document.getElementById('save')
+    yearly.addEventListener('click', () => {
+      offer.style.display = 'block'
+      save.style.display = 'block'
+    })

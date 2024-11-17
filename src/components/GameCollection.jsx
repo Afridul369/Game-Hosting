@@ -21,7 +21,7 @@ const GameCollection = () => {
    <Container>
    <div >
         <div className="text-center text-white mb-[70px]">
-            <Text text={'Our Game Collection'} className={'animate__animated animate__backInDown text-5xl font-Plus font-bold'}/>
+            <Text text={'Our Game Collection'} as='h1'  className={'animate__animated animate__backInDown  text-5xl font-Plus font-bold'}/>
         </div>
         <div className="mb-12">
             <Flex className={'justify-center gap-x-3'}>
@@ -35,14 +35,14 @@ const GameCollection = () => {
         </div>
         <div className="">
             <Flex className={'gap-x-8 flex-wrap'}>
-            <CollectionCard imgSrc={Cardimg1} text1={'Legacy of the Stars'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg1} text1={'Legacy of the Stars'} text2={'$29.00'} text3={<del>$59.00</del>}/>
             <CollectionCard imgSrc={Cardimg2} text1={'Nebula Nexus'} text2={'$29.00'}/>
-            <CollectionCard imgSrc={Cardimg3} text1={'Shadowrealm Saga'} text2={'$29.00'}/>
-            <CollectionCard imgSrc={Cardimg4} text1={'Warzone Assault'} text2={'$29.00'}/>
-            <CollectionCard imgSrc={Cardimg5} text1={'Eternal Odyssey'} text2={'$29.00'}/>
-            <CollectionCard imgSrc={Cardimg6} text1={'Magic and Mystery'} text2={'$29.00'}/>
-            <CollectionCard imgSrc={Cardimg7} text1={'Reign of Fire'} text2={'$29.00'}/>
-            <CollectionCard imgSrc={Cardimg8} text1={'Guardians of the Cosmos'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg3} text1={'Shadowrealm Saga'} text2={'$29.00'} text3={<del>$59.00</del>}/>
+            <CollectionCard imgSrc={Cardimg4} text1={'Warzone Assault'} text2={'$29.00'} text3={<del>$59.00</del>}/>
+            <CollectionCard imgSrc={Cardimg5} text1={'Eternal Odyssey'} text2={'$29.00'} text3={<del>$59.00</del>}/>
+            <CollectionCard imgSrc={Cardimg6} text1={'Magic and Mystery'} text2={'$29.00'} />
+            <CollectionCard imgSrc={Cardimg7} text1={'Reign of Fire'} text2={'$29.00'} text3={<del>$59.00</del>}/>
+            <CollectionCard imgSrc={Cardimg8} text1={'Guardians of the Cosmos'} text2={'$29.00'} text3={<del>$59.00</del>}/>
             </Flex>
         </div>
     </div>

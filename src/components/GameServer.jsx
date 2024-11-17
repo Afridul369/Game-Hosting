@@ -10,18 +10,18 @@ import ServerContent from "./ServerContent";
 const GameServer = () => {
   return (
     <>
-      <div className="bg-Serverbg py-28">
+      <div className="bg-GamerServerBg bg-no-repeat bg-cover bg-center bg-Explorebg py-28">
         <Container>
           <div className="text-center mb-10">
             <Text
-              text={"Popular Game Server"}
+              text={"Popular Game Server"} as='h1'
               className={"text-white text-5xl font-bold font-Plus"}
             />
           </div>
           <div className="text-center px-96 mb-10">
             <Text
               text={
-                "Choosing a game server hosting provider, consider factors such as server performance, reliability, customer support."}
+                "Choosing a game server hosting provider, consider factors such as server performance, reliability, customer support."} as='h1'
               className={"text-white text-base font-semibold font-Plus"}
             />
           </div>
