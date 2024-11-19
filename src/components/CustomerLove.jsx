@@ -8,6 +8,7 @@ import Author2 from '../assets/author2.png'
 import Author3 from '../assets/author3.png'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Slider from "react-slick";
 
 const CustomerLove = () => {
   useEffect(() => {
@@ -16,6 +17,13 @@ const CustomerLove = () => {
       once:true
     });
   })
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+  };
   return (
     <>
     <div className="py-16 bg-Explorebg">
@@ -25,9 +33,15 @@ const CustomerLove = () => {
                 <Text text={'From 24/7 support that acts as your extended team to incredibly fast website performance'} as='h1' className={'text-base font-Inter font-medium mb-12 px-[450px] '}/>               
             </div>
             <Flex className={'gap-x-10 mb-10'}>
+            
+            {/* <Slider {...settings}> */}
+           
             <LoveCard text1={'Excellent option for those looking for High-End WordPress Hosting. I have been using Cloud ways.'} imgSrc={Author} text2={'Jamie Knop'} text3={'Business Owner'}/>
-            <LoveCard text1={'Excellent option for those looking for High-End WordPress Hosting. I have been using Cloud ways.'} imgSrc={Author2} text2={'Jahed Khan'} text3={'Business Owner'}/>
-            <LoveCard text1={'Excellent option for those looking for High-End WordPress Hosting. I have been using Cloud ways.'} imgSrc={Author3} text2={'Samira Khan'} text3={'Digital Marketer'}/>
+            <LoveCard text1={'Excellent option for those looking for High-End WordPress Hosting. I have been using Cloud ways.'} imgSrc={Author} text2={'Jamie Knop'} text3={'Business Owner'}/>
+            <LoveCard text1={'Excellent option for those looking for High-End WordPress Hosting. I have been using Cloud ways.'} imgSrc={Author} text2={'Jamie Knop'} text3={'Business Owner'}/>
+           
+            {/* </Slider> */}
+
             </Flex>
         </Container>
     </div>
@@ -36,3 +50,4 @@ const CustomerLove = () => {
 }
 
 export default CustomerLove
+
