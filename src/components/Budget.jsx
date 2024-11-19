@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Container from './Container'
 import Text from './Text'
 import Flex from './Flex'
@@ -10,15 +10,23 @@ import BudgetCardimg1 from '../assets/budgetcardimg1.png'
 import BudgetCardimg2 from '../assets/budgetcardimg2.png'
 import BudgetCardimg3 from '../assets/budgetcardimg3.png'
 import { Link } from 'react-router-dom'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Budget = () => {
-
+  useEffect(() => {
+    AOS.init({
+      duration: 500, // Animation duration (milliseconds)
+      once: true, // Animation হবে একবার
+    });
+  }, []);
  
   return (
     <>
     <div className="bg-Explorebg py-14">
       <Container>
-        <div className="text-center px-96 mb-20" >
+        <div className="text-center px-96 mb-20" data-aos="fade-down">
             <Text text={'Unleash Online Growth Not Budgets.'} as='h1' className={'text-5xl font-Plus text-white font-bold  leading-[60px] '}/>
         </div>
         <div className="flex justify-center gap-x-10 mb-14">          

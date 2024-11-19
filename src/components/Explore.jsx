@@ -14,7 +14,7 @@ const Explore = () => {
     <>
     <div className="bg-Explorebg ">
     <Container className={''}>
-    <div className="relative bg-gradient-to-r from-white z-50">
+    <div className="relative after:absolute after:content-[''] after:w-full after:h-full after:bg-gradient-to-t after:from-white after:z-[-1] after:left-0 after:top-0">
     <Image imgSrc={ExploreBg} className={''}/>
     <div className="w-2/5 absolute top-[70px] left-[80px] z-10">
     <div className="text-white border w-[38%] px-5 py-2 rounded-3xl mb-6">
@@ -32,7 +32,7 @@ const Explore = () => {
         <div className="text-white">
             <Flex className={'gap-x-4'}>
                <Link>
-               <Button text={'Purchase Now'} className={'text-base font-Inter px-9 py-4 rounded-[32px] hover:text-Bannerbtntxt hover:bg-ButtonBg hover:border-transparent hover:font-bold text-white bg-NavBg border-2 border-white duration-300 '}/>
+               <Button text={'Purchase Now'} className={'text-base font-Inter px-9 py-4 rounded-[32px] text-Bannerbtntxt bg-ButtonBg font-bold'}/>
                </Link>                 
             </Flex>
         </div>

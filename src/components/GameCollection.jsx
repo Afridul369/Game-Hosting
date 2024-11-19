@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Text from './Text'
 import Flex from './Flex'
 import Button from './Button'
@@ -13,14 +13,21 @@ import Cardimg5 from '../assets/CollCardimg5.jpg'
 import Cardimg6 from '../assets/CollCardimg6.jpg'
 import Cardimg7 from '../assets/CollCardimg7.jpg'
 import Cardimg8 from '../assets/CollCardimg8.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const GameCollection = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 500,
+          once: true,});
+    })
   return (
     <>
    <div className="bg-Explorebg py-16 ">
    <Container>
    <div >
-        <div className="text-center text-white mb-[70px]">
+        <div className="text-center text-white mb-[70px]" data-aos="fade-down">
             <Text text={'Our Game Collection'} as='h1'  className={'animate__animated animate__backInDown  text-5xl font-Plus font-bold'}/>
         </div>
         <div className="mb-12">

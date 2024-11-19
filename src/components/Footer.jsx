@@ -13,6 +13,7 @@ import American from '../assets/american.png'
 import Wise from '../assets/wise.png'
 import { FaBehance, FaFacebookF, FaInstagram, FaLinkedin } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -21,7 +22,7 @@ const Footer = () => {
         <Container>
         <Flex className={'mb-32 justify-between'}>
             <div className="">
-                <Image imgSrc={Footerlogo} className={'mb-12'}/>
+                <Link to={''}><Image imgSrc={Footerlogo} className={'mb-12'}/></Link>
                 <Text text={'We’re on a mission make life easier for '} as='h1' className={'text-base font-Inter text-Servertxt '}/>
                 <Text text={'web developers & small businesses. '} as='h1' className={'text-base font-Inter text-Servertxt mb-14'}/>
                 <Text text={'Payment Method'} as='h1' className={'text-xl font-Inter text-white font-bold mb-4'}/>

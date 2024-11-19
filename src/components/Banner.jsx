@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Container from './Container'
 import Flex from './Flex'
 import Text from './Text'
@@ -8,11 +8,19 @@ import BannerImage from '../assets/bannerrightimg.png';
 import Gamebanner from '../assets/gamebanner.png';
 import Button from './Button';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Banner = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      once: true, 
+  })
+}, [])
   return (
     <>
-   <div className="py-60 bg-Banner bg-no-repeat bg-center bg-cover ">
+   <div className="py-60 after:content-[''] after:absolute after:top-0 after:left-0 after:w-full h-full after:bg-gradient-to-t after:from-Gradient after:z-[-1] bg-Banner bg-no-repeat bg-center bg-cover ">
    <Container>
     <Flex>
       <div className="w-3/5">
@@ -22,7 +30,7 @@ const Banner = () => {
             <Text  text={'30% Discount first month purchase'} as='h1' className={'text-[18px] font-Inter font-semibold'}/>
             </Flex>
         </div>
-        <div className="relative mb-10">
+        <div className="relative mb-10" data-aos="fade-down">
             <Text text={'Power Up with Our Premium Game Hosting Solutions '} as='h1' className={'text-[64px] text-white font-bold font-Plus leading-[80px]'}/> 
             <Image imgSrc={Gamebanner} imgAlt={'Gamebanner'} className={'absolute left-[304px] bottom-0'}/>
         </div>
