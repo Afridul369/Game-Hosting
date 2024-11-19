@@ -17,7 +17,7 @@ import { FaXTwitter } from 'react-icons/fa6'
 const Footer = () => {
   return (
     <>
-    <div className="bg-Explorebg ">
+    <div className="bg-FooterBg bg-Explorebg pt-32 ">
         <Container>
         <Flex className={'mb-32 justify-between'}>
             <div className="">

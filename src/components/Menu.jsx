@@ -2,7 +2,7 @@ import React from 'react'
 
 const Menu = ({menuname,className}) => {
   return (
-    <div className={`${className}`}>{menuname}</div>
+    <li className={`${className}`}>{menuname}</li>
   )
 }
 

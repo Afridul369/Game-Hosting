@@ -4,6 +4,7 @@ import Button from './Button'
 import Flex from './Flex'
 import { IoCartOutline } from 'react-icons/io5'
 import Text from './Text'
+import { Link } from 'react-router-dom'
 
 const CollectionCard = ({imgSrc,text1,text2,text3}) => {
   return (
@@ -16,13 +17,17 @@ const CollectionCard = ({imgSrc,text1,text2,text3}) => {
      </Flex>
     </div>
      <Image imgSrc={imgSrc} className={'rounded-lg border-2 border-transparent  hover:border-ButtonBg duration-500 mb-8'}/>
-    <div className="py-3 px-9 w-[190px] absolute top-64 left-1/2 -translate-x-1/2 rounded-md bg-ButtonBg hidden opacity-0 ease-in-out group-hover:opacity-100 duration-500 group-hover:block ">
+    <Link>
+    <div className="py-3 px-9 w-[190px] absolute top-64 left-1/2 -translate-x-1/2 rounded-md bg-ButtonBg hidden ease-in-out group-hover:block duration-500  ">
      <Flex className={'justify-center items-center gap-x-2'}>
        <IoCartOutline className='text-2xl'/>
        <Button text={'Buy Now'} className={'text-base text-NavBg font-semibold font-Plus'}/>
      </Flex>
     </div>
-    <Text text={text1} as='h1' className={'text-white text-2xl font-Plus font-bold mb-4'}/>
+    </Link>
+    <Link>
+    <Text text={text1} as='h1' className={'text-white text-2xl font-Plus font-bold mb-4 hover:text-ButtonBg duration-500 inline-block'}/>
+    </Link>
     <Flex className={' items-center'}>
       <Text text={text3} as='h1' className={'text-base font-Plus text-white font-medium mr-6'}/> 
       <Text text={text2} as='h1' className={'py-1 px-2 font-semibold bg-ButtonBg rounded-md text-[15px] font-Plus text-colltxt '}/>

@@ -12,8 +12,8 @@ const GameServer = () => {
     <>
       <div className="bg-GamerServerBg bg-no-repeat bg-cover bg-center bg-Explorebg py-28">
         <Container>
-          <div className="text-center mb-10">
-            <Text
+          <div className="text-center mb-10" data-aos="fade-down">
+            <Text 
               text={"Popular Game Server"} as='h1'
               className={"text-white text-5xl font-bold font-Plus"}
             />

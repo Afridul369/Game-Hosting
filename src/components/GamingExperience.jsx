@@ -16,7 +16,7 @@ const GamingExperience = () => {
         <Container>
             <Flex>
                 <div className="w-1/2">
-                    <div style={{background:'#ffd8bf'}} className='w-[90%] rounded-xl'>
+                    <div className='w-[90%] rounded-xl bg-[#ffd8bf]'>
                         <Image imgSrc={Experienceimg} imgAlt={'Experienceimg'} /></div>
                 </div>
                 <div className="w-1/2 px-24 ">

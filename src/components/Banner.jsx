@@ -7,6 +7,7 @@ import Image from './Image';
 import BannerImage from '../assets/bannerrightimg.png';
 import Gamebanner from '../assets/gamebanner.png';
 import Button from './Button';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -27,8 +28,12 @@ const Banner = () => {
         </div>
         <div className="text-white">
             <Flex className={'gap-x-4'}>
-                <Button text={'Get Started'} className={'text-base font-Inter px-9 py-4 rounded-lg hover:text-Bannerbtntxt hover:bg-ButtonBg hover:border-ButtonBg hover:font-bold text-white bg-NavBg border border-white duration-500 cursor-pointer'}/>
-                <Button text={'Buy Now    '} className={'text-base font-Inter px-9 py-4 rounded-lg hover:text-Bannerbtntxt hover:bg-ButtonBg hover:border-ButtonBg hover:font-bold text-white bg-NavBg border border-white duration-500 cursor-pointer'}/>
+                <Link>
+                <Button text={'Get Started'} className={'text-base font-Inter px-9 py-4 rounded-lg text-Bannerbtntxt bg-ButtonBg  font-bold cursor-pointer'}/>
+                </Link>
+               <Link>
+               <Button text={'Buy Now    '} className={'text-base font-Inter px-9 py-4 rounded-lg hover:text-Bannerbtntxt hover:bg-ButtonBg hover:border-ButtonBg hover:font-bold text-white bg-NavBg border border-white duration-500 cursor-pointer'}/>
+               </Link> 
             </Flex>
         </div>
       </div>

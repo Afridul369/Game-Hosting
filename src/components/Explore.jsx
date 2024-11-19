@@ -7,6 +7,7 @@ import Flex from './Flex'
 import { IoGameControllerOutline } from 'react-icons/io5'
 import Text from './Text'
 import Button from './Button'
+import { Link } from 'react-router-dom'
 
 const Explore = () => {
   return (
@@ -30,7 +31,9 @@ const Explore = () => {
         </div>
         <div className="text-white">
             <Flex className={'gap-x-4'}>
-                <Button text={'Purchase Now'} className={'text-base font-Inter px-9 py-4 rounded-[32px] hover:text-Bannerbtntxt hover:bg-ButtonBg hover:border-transparent hover:font-bold text-white bg-NavBg border-2 border-white duration-300 cursor-pointer'}/>                
+               <Link>
+               <Button text={'Purchase Now'} className={'text-base font-Inter px-9 py-4 rounded-[32px] hover:text-Bannerbtntxt hover:bg-ButtonBg hover:border-transparent hover:font-bold text-white bg-NavBg border-2 border-white duration-300 '}/>
+               </Link>                 
             </Flex>
         </div>
     </div>
