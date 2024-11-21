@@ -46,7 +46,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="w-2/5">
-        <Image imgSrc={BannerImage} imgAlt={'BannerGame'}/>
+        <Image imgSrc={BannerImage} imgAlt={'BannerGame'} className={'z-20 '}/>
       </div>
     </Flex>
   </Container> 
