@@ -11,7 +11,7 @@ console.log(NavLogo);
 const Navbar = () => {
   return (
     <>
-    <div className="fixed top-0 left-0 w-full   py-6 justify-between items-center " id='StikyNav'>
+    <div className="fixed top-0 left-0 w-full z-20  py-6 justify-between items-center " id='StikyNav'>
         <Container>
             <Flex>
                 <div className="py-2">

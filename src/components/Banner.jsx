@@ -20,10 +20,10 @@ const Banner = () => {
 }, [])
   return (
     <>
-   <div className="py-60 after:content-[''] after:absolute after:top-0 after:left-0 after:w-full h-full after:bg-gradient-to-t after:from-Gradient after:z-[-1] bg-Banner bg-no-repeat bg-center bg-cover ">
+   <div className="py-52 after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full  after:bg-gradient-to-r after:from-BorderBottom after:from-25% after:z-10 bg-Banner bg-no-repeat bg-center bg-cover ">
    <Container>
     <Flex>
-      <div className="w-3/5">
+      <div className="w-3/5 z-20">
         <div className="text-white border w-[46%] px-3 py-2 rounded-3xl mb-4">
             <Flex className={'items-center gap-x-2'}>
             <IoGameControllerOutline className='text-3xl'/>

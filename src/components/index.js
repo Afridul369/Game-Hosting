@@ -15,6 +15,5 @@
     let save = document.getElementById('save')
     yearly.addEventListener('click',()=>{
       console.log('igui');
-      
     })
     
