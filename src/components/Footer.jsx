@@ -73,19 +73,19 @@ const Footer = () => {
               <input type='text' placeholder=' Enter Mail' className='w-[320px] mb-10 py-4 px-3 bg-white rounded-3xl'/>
               <Text text={'Social Media'} as='h1' className={'text-xl font-Inter text-white font-bold mb-7'}/>
               <Flex className={'gap-x-3'}>
-                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white">
+                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white hover:bg-ButtonBg hover:text-Explorebg duration-500">
                 <FaFacebookF />
                 </div>
-                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white">
+                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white hover:bg-ButtonBg hover:text-Explorebg duration-500">
                 <FaInstagram />
                 </div>
-                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white">
+                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white hover:bg-ButtonBg hover:text-Explorebg duration-500">
                 <FaLinkedin />
                 </div>
-                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white">
+                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white hover:bg-ButtonBg hover:text-Explorebg duration-500">
                 <FaXTwitter />
                 </div>
-                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white">
+                <div className="p-2 border border-BorderBottom rounded bg-Explorebg text-white hover:bg-ButtonBg hover:text-Explorebg duration-500 ">
                 <FaBehance />
                 </div>
               </Flex>
