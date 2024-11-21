@@ -1,0 +1,36 @@
+.custom_dots li{
+    /* background-color: white; */
+    color: white;
+    display: flex;
+
+    /* font-size: 10px;
+    margin: 0 auto;
+    align-items: center; */
+}
+/* .custom_dots {
+    display: flex !important; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .custom_dots li {
+    display: inline-block;
+  }
+  
+  .custom_dots li button {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd; 
+    border: none;
+  }
+  
+  .custom_dots li.slick-active button {
+    background-color: #007bff; 
+  } */
+  
