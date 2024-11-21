@@ -21,6 +21,8 @@ const Budget = () => {
       once: true, // Animation হবে একবার
     });
   }, []);
+
+  
  
   return (
     <>
@@ -32,12 +34,14 @@ const Budget = () => {
         <div className="flex justify-center gap-x-10 mb-14">          
         <div className="text-white bg-BorderBottom w-[210px] py-1 rounded-lg relative ">
         <Image imgSrc={Offer} id='offer' className='absolute -top-3 -right-16 '/>
-          <Link>
           <Flex className={'justify-center items-center gap-x-2'}>           
+            <Link>
             <Button text={'Monthly'} className={'text-base font-Plus font-semibold py-2.5 px-5 bg-NavBg duration-500 text-ButtonBg  hover:bg-ButtonBg hover:text-BorderBottom rounded-lg'}/>
-            <Button text={'Yearly'} id='yearly' className={'text-base font-Plus font-semibold py-2.5 px-5 bg-NavBg duration-500 text-ButtonBg hover:bg-ButtonBg hover:text-BorderBottom rounded-lg'}/>           
-          </Flex>
+            </Link>
+          <Link>
+            <Button text={'Yearly'} id='yearly' className={' text-base font-Plus font-semibold py-2.5 px-5 bg-NavBg duration-500 text-ButtonBg hover:bg-ButtonBg hover:text-BorderBottom rounded-lg'}/>           
           </Link>         
+          </Flex>
         </div>
         <Text text={'20% save'} as='h1' id='save' className={'text-base font-Plus font-semibold text-white mt-2 '}/>
         </div>
