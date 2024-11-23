@@ -10,6 +10,7 @@ import Home from './components/Pagess/Home';
 import Pages from './components/Pagess/Pages';
 
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
       path="/Pages"
       element={<Pages/>}>     
       </Route>
+      
     </>
    
   )

@@ -40,7 +40,7 @@ const Navbar = () => {
                   </ul>
                 </div>
                 <div className="">
-                  <Button text={'login'} className={'text-base px-8 py-2 bg-NavBg border-2 duration-500 cursor-pointer border-white rounded-3xl text-white font-semibold hover:bg-ButtonBg hover:border-transparent hover:text-Buttontext hover:font-bold'}/>
+                  <Button text={'login'} className={'text-base px-8 py-2  border-2 duration-500 cursor-pointer border-white rounded-3xl text-white font-medium hover:bg-ButtonBg hover:border-transparent hover:text-Buttontext hover:font-bold'}/>
                 </div>
             </Flex>
         </Container>
