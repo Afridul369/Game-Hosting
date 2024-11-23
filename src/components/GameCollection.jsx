@@ -15,6 +15,7 @@ import Cardimg7 from '../assets/CollCardimg7.jpg'
 import Cardimg8 from '../assets/CollCardimg8.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Star from './Star'
 
 const GameCollection = () => {
     useEffect(() => {
@@ -43,12 +44,12 @@ const GameCollection = () => {
         <div className="">
             <Flex className={'gap-x-8 flex-wrap'}>
             <CollectionCard imgSrc={Cardimg1} text1={'Legacy of the Stars'} text2={'$29.00'} text3={<del>$59.00</del>}/>
-            <CollectionCard imgSrc={Cardimg2} text1={'Nebula Nexus'} text2={'$29.00'}/>
+            <CollectionCard imgSrc={Cardimg2} text1={'Nebula Nexus'} text2={'$29.00'} icon={<Star className='pl-5'/>} />
             <CollectionCard imgSrc={Cardimg3} text1={'Shadowrealm Saga'} text2={'$29.00'} text3={<del>$59.00</del>}/>
             <CollectionCard imgSrc={Cardimg4} text1={'Warzone Assault'} text2={'$29.00'} text3={<del>$59.00</del>}/>
             <CollectionCard imgSrc={Cardimg5} text1={'Eternal Odyssey'} text2={'$29.00'} text3={<del>$59.00</del>}/>
-            <CollectionCard imgSrc={Cardimg6} text1={'Magic and Mystery'} text2={'$29.00'} />
-            <CollectionCard imgSrc={Cardimg7} text1={'Reign of Fire'} text2={'$29.00'} text3={<del>$59.00</del>}/>
+            <CollectionCard imgSrc={Cardimg6} text1={'Magic and Mystery'}  text2={'$29.00'} icon={<Star className='pl-5'/>}/>
+            <CollectionCard imgSrc={Cardimg7} text1={'Reign of Fire'} text2={'$29.00'} text3={<del>$59.00</del>} icon={<Star className='pl-5'/>}/>
             <CollectionCard imgSrc={Cardimg8} text1={'Guardians of the Cosmos'} text2={'$29.00'} text3={<del>$59.00</del>}/>
             </Flex>
         </div>

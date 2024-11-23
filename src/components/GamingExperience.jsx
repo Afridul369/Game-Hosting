@@ -23,7 +23,7 @@ const GamingExperience = () => {
                     <Text text={'Game Server Solution Powering Your Online Gaming Experience'} as='h1' className={'text-[40px] font-Plus font-bold leading-[46px] text-white mb-14 '}/>
                     <ExperienceContent imgSrc={Feature1} text={'High-Performance Hardware'}/>
                     <ExperienceContent imgSrc={Feature2} text={'Customization Options'}/>
-                    <ExperienceContent imgSrc={Feature3} text={'24/7 Technical Support'}/>
+                    <ExperienceContent imgSrc={Feature3} text={'24/7 Technical Support'} className={'border-none'}/>
                 </div>
                 
             </Flex>

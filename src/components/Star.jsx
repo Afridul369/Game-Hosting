@@ -2,10 +2,10 @@ import React from 'react'
 import Flex from './Flex'
 import { FaStar } from 'react-icons/fa'
 
-const Star = () => {
+const Star = ({className}) => {
   return (
     <>
-    <Flex className={'gap-x-1 text-xl text-ButtonBg'}>
+    <Flex className={`gap-x-1 text-xl text-ButtonBg ${className}`}>
     <FaStar />
     <FaStar />
     <FaStar />

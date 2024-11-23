@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = ({className,text}) => {
+const Button = ({className,text,icon}) => {
   return (
-    <div className={`${className}`}>{text}</div>
+    <div className={`${className} flex`}>{icon}{text}</div>
   )
 }
 

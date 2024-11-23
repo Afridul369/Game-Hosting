@@ -4,11 +4,11 @@ import Image from './Image'
 import Text from './Text'
 
 
-const ExperienceContent = ({imgSrc,text}) => {
+const ExperienceContent = ({imgSrc,text,className}) => {
   return (
     <>
     <div >
-    <Flex className={'gap-x-16 mb-10 border-b  '}>
+    <Flex className={`gap-x-16 mb-10 border-b border-NavBg inline ${className} `}>
         <div className="w-[60px] mt-2">
         <Image imgSrc={imgSrc}/>
         </div>
