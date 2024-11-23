@@ -48,7 +48,7 @@ const Budget = () => {
         <div className=" ">
           <Flex className={'gap-x-2 justify-between'}>
           <BudgetCard imgSrc={BudgetCardimg1} text2='Basic Plan' text3='Price: $144.36'/>
-          <BudgetCard imgSrc={BudgetCardimg2} text2='Premium Plan' text3='Price: $1000.36'/>
+          <BudgetCard imgSrc={BudgetCardimg2} text2='Premium Plan' text3='Price: $1000.36' className={'bg-BudgetBg'}/>
           <BudgetCard imgSrc={BudgetCardimg3} text2='Cloud Startup' text3='Price: $448.36'/>
           </Flex>
         </div>

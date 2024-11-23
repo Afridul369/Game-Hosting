@@ -31,8 +31,9 @@ export default {
       },
       backgroundImage: {
          Banner: "url('/src/assets/banner.png')",
-         GamerServerBg: "url('./src/assets/gameserverbg.png')",
+         GamerServerBg: "url('/src/assets/gameserverbg.png')",
          FooterBg: "url('../src/assets/foooterbg.png')",
+         BudgetBg: "url('./src/assets/budgetbg.png')",
       },
     },
   },

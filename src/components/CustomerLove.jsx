@@ -27,11 +27,12 @@ const CustomerLove = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     dotsClass: 'custom_dots',  
-    autoplay: true
+    autoplay: true,
+    arrows: false,
   };
   return (
     <>
-    <div className="py-16 bg-Explorebg">
+    <div className="pt-16 pb-8 bg-Explorebg">
         <Container>
             <div className="text-center text-white" data-aos="fade-down">
               <Text text={'Our Customers Love Us'} as='h1' className={'text-4xl font-Plus font-bold mb-6'}/>

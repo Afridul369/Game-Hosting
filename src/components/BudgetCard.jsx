@@ -7,10 +7,10 @@ import { FaCheck } from 'react-icons/fa6'
 import { RxCross2 } from 'react-icons/rx'
 import { Link } from 'react-router-dom'
 
-const BudgetCard = ({text2,text3,imgSrc}) => {
+const BudgetCard = ({text2,text3,imgSrc,className}) => {
   return (
     <>
-    <div className="group">
+    <div className={`group hover:bg-BudgetBg bg-no-repeat bg-center bg-cover ${className}`}>
     <div className="p-16 border border-BorderBottom group-hover:border-ButtonBg duration-500 rounded-2xl">
         <div className="border-b border-NavBg group-hover:border-ButtonBg duration-500  mb-10">
         <Image imgSrc={imgSrc} className={'mb-10'}/>

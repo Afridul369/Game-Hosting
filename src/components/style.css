@@ -1,12 +1,28 @@
-.custom_dots li{
+.custom_dots {
     /* background-color: white; */
     color: white;
-    display: flex;
+    display: flex !important;
+    justify-content: center;
+    margin-top: 32px; 
+    gap: 20px;
+    list-style: none;
+    
+  }
+.custom_dots li{
+    /* background-color: white; */
+    border-radius: 50% ;
+    border: 1px solid white;
+    font-size: 5px;
+    width: 10px;
+    height: 10px;
+    color: #0b0f21   ;
+    display: block;
+  }
 
     /* font-size: 10px;
     margin: 0 auto;
     align-items: center; */
-}
+
 /* .custom_dots {
     display: flex !important; 
     justify-content: center; 
@@ -29,8 +45,8 @@
     background-color: #ddd; 
     border: none;
   }
-  
-  .custom_dots li.slick-active button {
+  */
+  /* .custom_dots li.slick-active button {
     background-color: #007bff; 
-  } */
+  }  */
   
